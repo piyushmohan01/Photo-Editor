@@ -1,11 +1,11 @@
 # Photo-Editor
-A simple Photo editor with basic HTML, CSS and JavaScript.
+A simple Photo editor with basic HTML, CSS and JavaScript that allows the user to upload a picture of their choice and try various filters over them.
 
 Software Used: codepen.io
 - View on Codepen: https://codepen.io/piyushmohan/full/KKVmYBv
 
 How to:
-- Upload a photo from your device. (landscapce ratio)
+- Upload a photo from your device. (landscape ratio)
 - A photo file with lesser size works faster than a bigger one.
 - After the Picture is visible on the canvas.
 - Choose your Filter by clicking on the Button of your choice.
