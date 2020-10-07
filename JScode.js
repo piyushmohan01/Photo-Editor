@@ -15,12 +15,13 @@ function upload() {
   rbimg = new SimpleImage(finp);
   wdimg = new SimpleImage(finp);
   rhimg = new SimpleImage(finp);
+  gimage = new SimpleImage(finp);
   // blimg = new SimpleImage(finp);
 }
 
 function loaded(image) {
   if(image == null || !image.complete()) {
-    alert("Image not loaded");
+    alert("Please choose a picture.");
   }
   else {
     return  true;
@@ -245,6 +246,16 @@ function rhue() {
   rhimg.drawTo(can);
 }
 
+function gray() {
+  for ( var pix of gimage.values()) {
+    var avg = (pix.getRed() + pix.getGreen() + pix.getBlue() )/3;
+    pix.setRed(avg);
+    pix.setGreen(avg);
+    pix.setBlue(avg);
+  }
+  gimage.drawTo(canv);
+}
+
 function dorainbow() {
   if(loaded(image)) {
     rbow();
@@ -266,11 +277,19 @@ function doredhue() {
   rhimg.drawTo(can);
 }
 
+function dogray() {
+  if(loaded(image)) {
+    gray();
+    gimage.drawTo(can);
+  }
+}
+
 function reset() {
   if(loaded(image)) {
     rbimg = new SimpleImage(finp);
     wdimg = new SimpleImage(finp);
     rhimg = new SimpleImage(finp);
+    gimage = new SimpleImage(finp);
 //     blimg = new SimpleImage(finp);
   }
   image.drawTo(can);
