@@ -14,3 +14,4 @@ How to:
 - You can navigate through filters without Resetting each time.
 - In case, you wish to go back to the original photo, click on the "Reset" button.
 - Further, if you wish to change the original photo, you can click on "Choose file" once again.
+- Once done trying all the filters, the user can right click (on desktop devices) and then click on "Save Image as" to save the edited picture to your device.
