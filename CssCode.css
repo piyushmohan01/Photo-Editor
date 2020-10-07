@@ -13,6 +13,7 @@ h1 {
 /*   border: 3px solid black; */
   padding: 30pt;
   margin-top: -10pt;
+  height: 100%;
   text-align: center;
   font-size: 20pt;
 /*   background-color: mediumvioletred; */
@@ -40,7 +41,7 @@ canvas {
   height: 60%;
   display: block;
   margin: 0 auto;
-  margin-top: 20pt;
+  margin-top: 15pt;
 /*   background-color: lightpink; */
 background: rgb(189,49,97);
 background: linear-gradient(90deg, rgba(189,49,97,1) 25%, rgba(2,0,36,1) 100%);
@@ -54,7 +55,7 @@ background: linear-gradient(90deg, rgba(189,49,97,1) 25%, rgba(2,0,36,1) 100%);
     display: block;
   margin: 0 auto;
   text-align: center;
-  margin-top: 20pt;
+  margin-top: 10pt;
   margin-bottom: 10pt;
 /*   margin: 20px;*/
   padding: 2.25pt; 
@@ -77,6 +78,8 @@ background: linear-gradient(90deg, rgba(189,49,97,1) 25%, rgba(2,0,36,1) 100%);
 
 #reset {
   width: 55pt;
+  height: 20pt;
+  font-size: 8pt;
   cursor: pointer;
   color: white;
   border-color: black;
@@ -88,13 +91,15 @@ background: linear-gradient(90deg, rgba(189,49,97,1) 25%, rgba(2,0,36,1) 100%);
 }
 
 #para2 {
-  border: 2pt solid black;
-  width: 250pt;
-  height: 20pt;
+  border: 2pt solid black; 
+  width: 200pt;
+  height: 60pt;
+  font-size: 15pt;
+  line-height: 0.7;
   text-align: center;
     display: block;
   margin: 0 auto;
-    padding: 2.25pt; 
+    padding: 5.25pt; 
   margin-bottom: 20pt;
 /*   margin: 20px;
   padding: 10px; */
@@ -105,8 +110,10 @@ background: linear-gradient(90deg, rgba(104,17,74,1) 25%, rgba(2,0,36,1) 100%);
 }
 
 #rnb {
-  width: 50pt;
+  width: 75pt;
+  font-size: 12pt;
     cursor: pointer;
+  margin-top: 5pt;
   color: white;
   border-color: black;
     background-color: #cc0066;
@@ -125,7 +132,10 @@ background: linear-gradient(90deg, rgba(104,17,74,1) 25%, rgba(2,0,36,1) 100%);
 } */
 
 #wnd {
-  width: 50pt;
+  width: 75pt;
+  font-size: 12pt;
+/*   margin-left: 135pt; */
+/*   margin-top: -13pt;  */
     cursor: pointer;
     color: white;
   border-color: black;
@@ -137,7 +147,9 @@ background: linear-gradient(90deg, rgba(104,17,74,1) 25%, rgba(2,0,36,1) 100%);
 }
 
 #redh {
-  width: 50pt;
+  width: 75pt;
+  font-size: 12pt;
+  margin-left: 5pt;
     cursor: pointer;
     color: white;
   border-color: black;
@@ -148,7 +160,19 @@ background: linear-gradient(90deg, rgba(104,17,74,1) 25%, rgba(2,0,36,1) 100%);
   background-color: black;
 }
 
+#gray {
+  width: 75pt;
+  font-size: 12pt;
+  margin-left: 5pt;
+  cursor: pointer;
+  color: white;
+  border-color: black;
+  background-color: #cc0066;
+}
 
+#gray:hover {
+  background-color: black;
+}
 
 background: rgb(189,49,97);
 background: linear-gradient(90deg, rgba(189,49,97,1) 25%, rgba(2,0,36,1) 100%);
