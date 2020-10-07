@@ -5,7 +5,8 @@ Software Used: codepen.io
 - View on Codepen: https://codepen.io/piyushmohan/full/KKVmYBv
 
 How to:
-- Upload a photo from your device by clicking on "Choose file". (landscape ratio) 
+- Upload a photo from your device by clicking on "Choose file".
+- The photo can be of any size and ratio.
 - A photo file with lesser size works faster than a bigger one.
 - After the Picture is visible on the canvas.
 - Choose your Filter by clicking on the Button of your choice.
