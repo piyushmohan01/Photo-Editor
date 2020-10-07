@@ -37,6 +37,8 @@ function rbow() {
     var x = pixel.getX();
     var y = pixel.getY();
     var avg = (pixel.getRed() + pixel.getGreen() + pixel.getBlue())/3;
+    //average found
+    //leftmost-one-seventh for colour violet:
     if(x<=w/7 && x>0) {
       if(avg<128) {
         pixel.setRed(avg*1.6);
@@ -49,6 +51,7 @@ function rbow() {
         pixel.setBlue(avg*0.4+153);
       }
     }
+    //second one-seventh for colour indigo:
     if (x<=(2*w)/7 && x>w/7) {
       if(avg<128) {
         pixel.setRed(avg*0.8);
@@ -61,6 +64,7 @@ function rbow() {
         pixel.setBlue(255);
       }
     }
+    //third one-seventh for colour blue:
     if (x>=(2*w)/7 && x<(3*w)/7) {
       if (avg<128) {
         pixel.setRed(0);
@@ -73,6 +77,7 @@ function rbow() {
         pixel.setBlue(255);
       }
     }
+    //fourth one-seventh for colour green:
     if (x>=(3*w)/7 && x<(4*w)/7) {
       if(avg<128) {
         pixel.setRed(0);
@@ -85,6 +90,7 @@ function rbow() {
         pixel.setBlue(avg*2-255);
       }
     }
+    //fifth one-seventh for colour yellow:
     if (x>=(4*w)/7 && x<(5*w)/7) {
       if(avg<128) {
         pixel.setRed(avg*2);
@@ -97,6 +103,7 @@ function rbow() {
         pixel.setBlue(avg*2-255);
       }
     }
+    //sixth one-seventh for colour orange:
     if (x>=(5*w)/7 && x<(6*w)/7) {
       if(avg<128) {
         pixel.setRed(avg*2);
@@ -109,6 +116,7 @@ function rbow() {
         pixel.setBlue(avg*2-255);
       }
     }
+    //last one-seventh for colour red:
     if(x>=(6*w)/7 && x<w) {
       if(avg<128) {
         pixel.setRed(avg*2);
