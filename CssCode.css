@@ -35,11 +35,12 @@ h2 {
 }
 
 canvas {
-  border: 5pt solid black;
-  width: 350pt;
-  height: 225pt;
+  border: 3pt solid black;
+  width: 50%;
+  height: 60%;
   display: block;
   margin: 0 auto;
+  margin-top: 20pt;
 /*   background-color: lightpink; */
 background: rgb(189,49,97);
 background: linear-gradient(90deg, rgba(189,49,97,1) 25%, rgba(2,0,36,1) 100%);
@@ -53,7 +54,7 @@ background: linear-gradient(90deg, rgba(189,49,97,1) 25%, rgba(2,0,36,1) 100%);
     display: block;
   margin: 0 auto;
   text-align: center;
-  margin-top: 10pt;
+  margin-top: 20pt;
   margin-bottom: 10pt;
 /*   margin: 20px;*/
   padding: 2.25pt; 
@@ -94,6 +95,7 @@ background: linear-gradient(90deg, rgba(189,49,97,1) 25%, rgba(2,0,36,1) 100%);
     display: block;
   margin: 0 auto;
     padding: 2.25pt; 
+  margin-bottom: 20pt;
 /*   margin: 20px;
   padding: 10px; */
   color: white;
