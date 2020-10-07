@@ -6,7 +6,7 @@ Software Used: codepen.io
 
 How to:
 - Upload a photo from your device by clicking on "Choose file".
-- The photo can be of any size and ratio.
+- The photo can be of any size and ratio and can be uploaded from any device.(Desktop/Mobile)
 - A photo file with lesser size works faster than a bigger one.
 - After the Picture is visible on the canvas.
 - Choose your Filter by clicking on the Button of your choice.
