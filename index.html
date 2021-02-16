@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo-Editor</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div id="header">
+    <div id="holder">
+    <h1>Online Photo Editor</h1>
+    <h1>Online Photo Editor</h1>
+    <h1>Online Photo Editor</h1>
+    <h1>Online Photo Editor</h1>
+    </div>
+    </div>
+
+    <!-- <h2>Have fun editing pictures :)</h2> -->
+
+    <div id="para1">
+    <!--   Choose Your Picture: -->
+    
+    <input type="file" multiple="false" accept="image/*" id="img" class="custom-file-input" onchange="upload(), hide()">
+    <input type="button" value="Reset" onclick="reset()" id="reset">
+        <input type="button" value="Download" onclick="download_image()" id="click">
+    </div>
+
+    <div id="para2"> 
+    <p id="choose">Choose a Filter:</p>
+    <br>
+    <input type="button" value="Rainbow" id="rnb" onclick="dorainbow()">
+    <!--   <input type="button" value="Blur" id="blr" onclick="doblur()"> -->
+    <input type="button" value="RedHue" id="redh" onclick="doredhue()"> 
+    </br>
+
+    <br> <input type="button" value="Window" id="wnd" onclick="dowindow()">
+    <input type="button" value="B&W" id="gray" onclick="dogray()"> </br>
+    </div>
+
+    <canvas id="can">
+    </canvas>
+
+    <div id="text">
+    <p>Upload>Edit>Enjoy!</p>
+    <p>Upload>Edit>Enjoy!</p>
+    <p>Upload>Edit>Enjoy!</p>
+    <p>Upload>Edit>Enjoy!</p>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+    src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+    </script>
+</body>
+
+
+</html>
