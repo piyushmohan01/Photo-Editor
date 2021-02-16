@@ -14,4 +14,5 @@ How to:
 - In case, you wish to go back to the original photo, click on the "Reset" button.
 - Further, if you wish to change the original photo, you can click on "Choose file" once again.
 - Once done trying all the filters, the user can right click on 'Download' to have the edited photo downloaded on the device.
-- Have fun!
+
+Have fun!
