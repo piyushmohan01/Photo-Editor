@@ -1,7 +1,7 @@
 # Photo-Editor
 A simple Photo editor with basic HTML, CSS and JavaScript that allows the user to upload a picture of their choice and try various filters over them.
 
-- View a simulation on Codepen: https://codepen.io/piyushmohan/full/KKVmYBv
+- Project Link: https://piyushmohan01.github.io/Photo-Editor/
 
 How to:
 - Upload a photo from your device by clicking on "Choose file".
