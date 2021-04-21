@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Document</title>
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+=======
+    <title>Photo-Editor</title>
+>>>>>>> d4d342ab208e6edba995c94d1de7abfb987b8f0c
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+<<<<<<< HEAD
 </head>
 <body>
     
@@ -54,9 +59,61 @@
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+=======
+
+</head>
+<body>
+
+    <div id="header">
+    <div id="holder">
+    <h1>Online Photo Editor</h1>
+    <h1>Online Photo Editor</h1>
+    <h1>Online Photo Editor</h1>
+    <h1>Online Photo Editor</h1>
+    </div>
+    </div>
+
+    <!-- <h2>Have fun editing pictures :)</h2> -->
+
+    <div id="para1">
+    <!--   Choose Your Picture: -->
+    
+    <input type="file" multiple="false" accept="image/*" id="img" class="custom-file-input" onchange="upload(), hide()">
+    <input type="button" value="Reset" onclick="reset()" id="reset">
+        <input type="button" value="Download" onclick="download_image()" id="click">
+    </div>
+
+    <div id="para2"> 
+    <p id="choose">Choose a Filter:</p>
+    <br>
+    <input type="button" value="Rainbow" id="rnb" onclick="dorainbow()">
+    <!--   <input type="button" value="Blur" id="blr" onclick="doblur()"> -->
+    <input type="button" value="RedHue" id="redh" onclick="doredhue()"> 
+    </br>
+
+    <br> <input type="button" value="Window" id="wnd" onclick="dowindow()">
+    <input type="button" value="B&W" id="gray" onclick="dogray()"> </br>
+    </div>
+
+    <canvas id="can">
+    </canvas>
+
+    <div id="text">
+    <p>Upload>Edit>Enjoy!</p>
+    <p>Upload>Edit>Enjoy!</p>
+    <p>Upload>Edit>Enjoy!</p>
+    <p>Upload>Edit>Enjoy!</p>
+    </div>
+
+>>>>>>> d4d342ab208e6edba995c94d1de7abfb987b8f0c
     <script src="script.js"></script>
     <script
     src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
     </script>
 </body>
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> d4d342ab208e6edba995c94d1de7abfb987b8f0c
 </html>

@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     overflow: hidden;
     color: whitesmoke;
     font-family: 'Krona One', sans-serif;
@@ -153,3 +154,245 @@ body {
     border-color: transparent;
     outline: none;
 }
+=======
+    background: black;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+  }
+  
+  #header {
+      display: block;
+      margin: 0 auto;
+      text-align: right;
+      padding: 2em 4em;
+      padding-left: 0;
+      padding-right: 8em;
+      font-size: 1em;
+      line-height: 1em;
+      background: darkblue;
+      width: auto;
+  }
+  
+  #holder {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    max-width: 100%; 
+  }
+  
+   .custom-file-input::-webkit-file-upload-button {
+      visibility: hidden;
+   }
+  
+  .custom-file-input::before {
+    background: rgb(255, 8, 32);
+    content: 'Upload Picture!';
+    display: inline-block;
+    font-weight: bold;
+    border: 0.15em solid white;
+    border-radius: 10px;
+    padding: 0.5em 2em;
+    margin: 0.1em;
+    outline: none;
+  /*   border: none; */
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  /* .custom-file-input:hover {
+    background-color: lightpink;
+  } */
+  
+  canvas {
+  /*     position: absolute; */
+  /*     height: 60%; */
+      width: 42.2%;
+      max-width: 45%;
+      display: block;
+      background: rgb(255, 8, 32);
+      margin-top: -39.75em;
+      margin-left: 4em;
+    border: 0.75em solid white;
+    border-radius: 0.75em;
+  }
+  
+  #text {
+    line-height: 0.5em;
+    font-size: 2em;
+    text-align: left;
+    padding-left: 5em;
+    padding-top: 1em;
+  }
+  
+  #click {
+    position: absolute;
+    margin-top: 14.5em;
+    margin-left: 24em;
+    padding: 0.4em 2em;
+  /*   width: 55pt;
+    height: 20pt; */
+    cursor: pointer;
+    color: white;
+    border-color: white;
+    border-radius: 0.75em;
+  }
+  
+  #click:hover {
+    background: rgb(255, 8, 32);
+  }
+  
+  #para1 {
+    position: absolute;
+    left: 55%;
+    background-color: black;
+    padding: 0;
+    margin-top: 1em;
+    font-size: 1em;
+    width: 10em;
+  }
+  
+  #para1 input {
+    background-color: black;
+    font-size: 1em;
+    font-family: 'Krona One', sans-serif; 
+    min-width: auto;
+    margin-bottom: 0.5em;
+  }
+  
+  #img {
+    position: absolute;
+    margin-left: 2.5em;
+  }
+  
+  /* #img {
+      cursor: pointer;
+    background: rgb(189,49,97);
+  background: linear-gradient(90deg, rgba(189,49,97,1) 25%, rgba(2,0,36,1) 100%);
+    color: white;
+  } */
+  
+  /* #img:hover {
+    background-color: lightpink;
+  } */
+  
+  #reset {
+    position: absolute;
+    margin-top: 11em;
+    padding: 0.4em 2em;
+    margin-left: 25em;
+  /*   width: 55pt;
+    height: 20pt; */
+    cursor: pointer;
+    color: white;
+    border-color: white;
+    border-radius: 0.75em;
+  }
+  
+  #reset:hover {
+    background: rgb(255, 8, 32);
+  }
+  
+  #choose {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #para2 {
+    margin-left: 40em;
+    left: 55%;
+    margin-top: 1em;
+    padding: 2em 0;
+     background-color: black;
+    font-size: 1.2em;
+    font-family: 'Krona One', sans-serif; 
+    /* min-width: auto; */
+  }
+  
+  #para2 input {
+    background: black;
+    border: 2px solid white;
+    border-radius: 0.75em;
+    padding: 0.5em 0em;
+    margin-right: 2em;
+    width: 45%;
+     font-family: 'Krona One', sans-serif;
+    font-size: 1em;
+  }
+  
+  #para2 br {
+    padding: 0;
+  }
+  
+  #para2 p {
+    margin-top: 1em;
+    margin-left: 4.5em;
+  }
+  
+  #rnb {
+    width: 10em;
+    font-size: 2em;
+      cursor: pointer;
+    margin-top: 0;
+    color: white;
+      background: white;
+  }
+  
+  #rnb:hover {
+    background: rgb(255, 8, 32);
+  }
+  
+  /* #blr {
+    width: 90pt;
+  }
+  
+  #rnb:hover {
+    background-color: pink;
+  } */
+  
+  #wnd {
+    width: 4em;
+    font-size: 1em;
+  /*   margin-left: 135pt; */
+    margin-top: -0.30em; 
+      cursor: pointer;
+      color: white;
+  }
+  
+  #wnd:hover {
+    background: rgb(255, 8, 32);
+  }
+  
+  #redh {
+    width: 4em;
+    font-size: 1em;
+    margin-left: 0pt;
+    margin-top: 0.75em;
+      cursor: pointer;
+      color: white;
+    border-color: black;
+      background-color: #cc0066;
+  }
+  
+  #redh:hover {
+    background: rgb(255, 8, 32);
+  }
+  
+  #gray {
+    width: 4em;
+    font-size: 1em;
+    margin-left: 0pt;
+    margin-top: 0.8em;
+    cursor: pointer;
+    color: white;
+    border-color: black;
+    background-color: #cc0066;
+  }
+  
+  #gray:hover {
+    background: rgb(255, 8, 32);
+  }
+  
+  /* background: rgb(189,49,97);
+  background: linear-gradient(90deg, rgba(189,49,97,1) 25%, rgba(2,0,36,1) 100%); */
+>>>>>>> d4d342ab208e6edba995c94d1de7abfb987b8f0c
