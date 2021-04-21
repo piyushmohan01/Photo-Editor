@@ -133,7 +133,7 @@ function rbow() {
   rbimg.drawTo(can);
 }
 
-// function doblur() {
+// function blur() {
 //   for (var pixel of blimg.values()) {
 //     var x = pixel.getX();
 //     var y = pixel.getY();
@@ -141,13 +141,12 @@ function rbow() {
 //       var newx = Math.floor((Math.random() * 10) + 1);
 //       var newy = Math.floor((Math.random() * 10) + 1);
 //     if(ran>0.5) {
-//       if( (x-newx) < image.getWidth() -1 && (y-newy) <image.getHeight() -1) {
-//       var npix = image.getPixel(x-newx,y-newy);
+//       if( (x-newx) < image.getWidth()-1 && (y-newy) < image.getHeight()-1) {
+//         var npix = image.getPixel(x-newx,y-newy);
 //         blimg.setPixel(npix);
 //       }
 //     }
 //   }
-
 //   blimg.drawTo(can);
 // }
 
@@ -255,6 +254,7 @@ function gray() {
   gimage.drawTo(canv);
 }
 
+// Function call to Rainbow
 function dorainbow() {
   if(loaded(image)) {
     rbow();
@@ -262,6 +262,7 @@ function dorainbow() {
   rbimg.drawTo(can);
 }
 
+// Function call to Window
 function dowindow() {
   if(loaded(image)) {
     wind();
@@ -269,6 +270,15 @@ function dowindow() {
   wdimg.drawTo(can);
 }
 
+// Function call to Blur
+// function doblur() {
+//   if(loaded(image)) {
+//     blur();
+//   }
+//   blimg.drawTo(can);
+// }
+
+// Function call to RedHue
 function doredhue() {
    if(loaded(image)) {
    rhue(); 
@@ -276,6 +286,7 @@ function doredhue() {
   rhimg.drawTo(can);
 }
 
+// Function call to B/W
 function dogray() {
   if(loaded(image)) {
     gray();
@@ -283,6 +294,7 @@ function dogray() {
   }
 }
 
+// Reset image to OG
 function reset() {
   if(loaded(image)) {
     rbimg = new SimpleImage(finp);
@@ -294,23 +306,15 @@ function reset() {
   image.drawTo(can);
 }
 
-
-//----------------------
-
-
 var canvas = document.getElementById("can");
-
+// Download edited image
 function download_image() {
-  var image = canvas.toDataURL("image/jpeg");    
-  var tmpLink = document.createElement('a');
-  tmpLink.download = "image-download.png"; 
-  tmpLink.href = image;   
-  document.body.appendChild( tmpLink );  
-  tmpLink.click();
-  document.body.removeChild( tmpLink );
-} 
-
-function hide() {
-  var el = document.getElementById("text");
-  el.style.display = 'none';
+  // Check for loaded image **
+    var image = canvas.toDataURL("image/jpeg");    
+    var tmpLink = document.createElement('a');
+    tmpLink.download = "image-download.png"; 
+    tmpLink.href = image;   
+    document.body.appendChild( tmpLink );  
+    tmpLink.click();
+    document.body.removeChild( tmpLink );
 }
