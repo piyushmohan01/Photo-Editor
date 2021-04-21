@@ -28,7 +28,6 @@ function loaded(image) {
   }
 }
 
-
 // here every one seventh of the width of picture is given a spc color
 // every color from vibgyor has its own values to be applied (we have a table for that saved) 
 // using >= so we cover the pixel continuously 

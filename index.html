@@ -17,7 +17,7 @@
 <body>
     
     <div class="container-fluid">
-        <div class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="navbar navbar-expand-lg">
             <div class="d-flex justify-content-center w-100">
                 Online Photo Editor
             </div>
@@ -30,8 +30,8 @@
                 <div class="top-buttons">
                     <input type="file" multiple="false" accept="image/*" id="img" class="custom-input" onchange="upload()">
                     <div class="top-buttons-2">
-                        <input type="button" value="Reset" onclick="reset()" id="reset" class="reset">
-                        <input type="button" value="Download" onclick="download_image()" id="click" class="click">
+                        <input type="button" value="Reset" onclick="reset()" id="reset" class="reset  hvr-grow">
+                        <input type="button" value="Download" onclick="download_image()" id="click" class="click  hvr-grow">
                     </div>
                 </div>
                 <div class="bottom-buttons">
@@ -39,13 +39,13 @@
                         Choose a filter!
                     </div>
                     <div class="filter-buttons-top">
-                        <input type="button" value="Rainbow" id="rnb" onclick="dorainbow()" class="rainbow">
+                        <input type="button" value="Rainbow" id="rnb" onclick="dorainbow()" class="rainbow hvr-grow">
                         <!--   <input type="button" value="Blur" id="blr" onclick="doblur()"> -->
-                        <input type="button" value="RedHue" id="redh" onclick="doredhue()" class="redhue"> 
+                        <input type="button" value="RedHue" id="redh" onclick="doredhue()" class="redhue hvr-grow"> 
                     </div>
                     <div class="filter-buttons-bottom">
-                        <input type="button" value="Window" id="wnd" onclick="dowindow()" class="window">
-                        <input type="button" value="B&W" id="gray" onclick="dogray()" class="gray">
+                        <input type="button" value="Window" id="wnd" onclick="dowindow()" class="window hvr-grow">
+                        <input type="button" value="B&W" id="gray" onclick="dogray()" class="gray hvr-grow">
                     </div>
                 </div>
             </div>
